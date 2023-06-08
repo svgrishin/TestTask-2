@@ -26,13 +26,9 @@ namespace TesstTask_2
     {
         public int[,] matrixArray = new int[3, 4] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 } };
         //public int[,] matrixArray = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12, 13, 14, 15 } };
-
         public int[] resultMatrix;
-
         public int row, col;
-
         public int counter;
-
         public int frame;
 
         public Matrix()
@@ -71,10 +67,8 @@ namespace TesstTask_2
                     row = frame;
                     col = frame;
                 }
-
             }
         }
-
         public void MoveDown()
         {
             row++;
@@ -94,13 +88,5 @@ namespace TesstTask_2
         {
             col--;
         }
-
-        //public void ShowMatrix()
-        //{
-        //    foreach(int i in matrixArray)
-        //    {
-        //        Console.Write(i);
-        //    }
-        //}
     }
 }
